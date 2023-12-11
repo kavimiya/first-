@@ -1,0 +1,85 @@
+what git?
+version control --- created by (Linus Torvalds in 2005)
+version control -->git,Mercurical,svn,tfs
+
+git --> local System here
+
+github --> cloud
+
+
+
+It is used for:
+----------------
+Tracking code changes
+Tracking who made changes
+Coding collaboration
+
+************************************************
+
+Why Git?
+--------
+--> Over 70% of developers use Git!
+--> Developers can work together from anywhere in the world.
+--> Developers can see the full history of the project.
+--> Developers can revert to earlier versions of a project.
+
+***********************************************************
+
+What is GitHub?
+---------------
+--> Git is not the same as GitHub.
+--> GitHub makes tools that use Git.
+--> GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.
+
+Configure Git
+--------------
+* git config --global user.name "your user name"
+* git config --global user.email "your mail id .com" 
+
+Git Commands:
+------------
+--> Choose Folder
+* git init
+* git add <file_name>
+* git commit -m "update code "     # m->Message
+* git remote add origin https://github.com/kavimiya/Git.git   # code push and pull space create to specfic rep
+* git push -u origin master (master Local system )
+--> username:
+--> password:
+ok 
+
+github any changes :
+* git add .
+* git commit -m "update code "     # m->Message
+* git push -u origin master (master Local system ) --> Error
+
+local ---> remote rep--> push
+remote rep---> local ---> pull
+
+---> 
+* git pull
+
+
+new branch created
+----------------------
+* git checkout -b "name" # this a new branches created
+
+git ceckout   # change a branch 
+----------------
+* git checkout aruvi
+
+git status
+------------
+* git status
+
+
+two branch add 
+-----------------
+* git merge name 
+
+
+branch delete
+------------
+* git branch -d
+
+

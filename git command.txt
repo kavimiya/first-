@@ -1,0 +1,16 @@
+Git Command :
+step1: git add Name.txt
+step2: git commit -m "text"
+step3: git push -u origin  master # this sent for git 
+second time:
+same all  step 2: but step 3 is 
+modifier in first step:
+
+git pull #Recive a git 
+and follw step3:
+
+next step:
+1.git add . # this using all files selected use command
+2.git checkout -b "name" # this a new branches created
+3.git ceckout name  # change a branches 
+4.git merge name # in addd local add 
